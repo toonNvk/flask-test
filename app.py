@@ -14,8 +14,8 @@ app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.config['MQTT_BROKER_URL'] = '10.0.1.189'
 app.config['MQTT_BROKER_PORT'] = 1883
-app.config['MQTT_USERNAME'] = 'nvk'
-app.config['MQTT_PASSWORD'] = 'nvk123'
+app.config['MQTT_USERNAME'] = 'username'
+app.config['MQTT_PASSWORD'] = 'password'
 app.config['MQTT_KEEPALIVE'] = 5
 app.config['MQTT_TLS_ENABLED'] = False
 
